@@ -316,7 +316,7 @@ header{
     .container{
         flex-direction: column;
         align-items: center;
-        width: 100vh;
+        width: 100%;
     }
     .container img{
         width: 45px;
@@ -337,6 +337,10 @@ header{
     }
     .nav-menu a{
         text-align: center;
+        font-size: 15px;
+        width: 70px;
+        padding: 5px;
+        margin: 1px;
     }
 
     /* capa */
@@ -345,10 +349,9 @@ header{
     }
     .capa h1{
         max-width: 100%;
-        font-size:50px;
+        font-size: 45px;
         margin-bottom: 0px;
-        text-shadow: 3px 3px 2px black;    
-        max-width: 80%;
+        text-shadow: 3px 3px 2px #4d4949;
         border-bottom: 1px solid white;
     }
     .capa h2{
@@ -416,6 +419,10 @@ header{
     .saude{
         flex-direction: column;
         padding: 20px;
+    }
+    .tsaude h1{
+        font-size: 29px;
+        padding-bottom: 20px;
     }
 
     /* sobre */
